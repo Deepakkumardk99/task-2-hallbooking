@@ -19,7 +19,7 @@ app.post("/rooms", (req, res) => {
     id: rooms.length + 1,
     number_of_seats:10,
     amenities:"wifi,projecter,whiteboard",
-    price_per_hour:10,
+    price_per_hour:1000,
   };
 
   // Add the room to the rooms array
