@@ -143,5 +143,5 @@ app.get("/customers/booking-count", (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Hall booking API listening at http://localhost:${port}`);
+  console.log(`Hall booking API listening at http://localhost:${port}/rooms`);
 });
